@@ -1,0 +1,461 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  background-image: url('path-to-your-gif.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.nav-pills .nav-link {
+  color: white !important;
+  margin-top: 20px; /* Ensures it overrides Bootstrap's default color */
+}
+
+.nav-pills .nav-link:hover {
+  color: #ccc !important; /* Optional: Add a hover effect */
+}
+
+
+header {
+  position: relative;
+  width: 1380px;
+  margin-left: -130px;
+  top: -640px;
+}
+
+.gif-background {
+  width: 100%;
+  height: 750px;
+  background-image: url('images/video.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #ccc;
+  text-align: center;
+  line-height: 300px;
+  color: black;
+  margin-top: -20px;
+  filter: brightness(40%);
+  font-size: 24px;
+  margin-top: -110px;
+}
+
+.titulli {
+  font-size: 80px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+
+.fillimi {
+  position: relative;
+  top: -500px;
+  left: 100px;
+}
+
+.fc {
+  color: blue;
+}
+
+.miresevini {
+  color: white;
+  width: 640px;
+  position: relative;
+  left: 20px;
+}
+
+.button-48 {
+  appearance: none;
+  background-color: transparent;
+  border-width: 0;
+  box-sizing: border-box;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1), background-color 100ms cubic-bezier(.694, 0, 0.335, 1), color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  left: 18px;
+}
+
+.navbar-custom {
+  margin-left: -55px; /* Adjust as needed */
+}
+
+#teammate{
+  background: linear-gradient(to right, #007BFF, #FFFFFF); /* Blue to white gradient */
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: blue;
+  color: white;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  color: white;
+}
+
+.button-48:after {
+  background-color: blue;
+  color: white;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+  color: white;
+}
+
+/* Custom Background */
+.custom-background {
+  background: linear-gradient(to right, #007BFF, #FFFFFF); /* Blue to white gradient */
+  padding: 40px;
+  margin-top: -343px;
+}
+
+.custom-background h1,
+.custom-background p {
+  color: white;
+}
+
+.custom-background a {
+  color: #fff; /* White link text */
+  text-decoration: underline;
+}
+
+.custom-background a:hover {
+  color: #f0f0f0; /* Lighter shade of white on hover */
+}
+
+/* Match Container */
+.match-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: -150px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 40%; /* Box width */
+  margin-left: auto;
+}
+
+/* Team Logos and Names */
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team img {
+  margin-bottom: 10px;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+/* Date and Time */
+.match-info {
+  text-align: center;
+}
+
+.date-time {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 1.2rem;
+  color: #ff5722;
+}
+
+
+
+
+.lajmeth1{
+  background: linear-gradient(to right, #007BFF, #FFFFFF); /* Blue to white gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  -webkit-text-fill-color: transparent;
+}
+
+.eventet{
+  background: linear-gradient(to right, #007BFF, #FFFFFF); /* Blue to white gradient */
+  -webkit-background-clip: text;
+  font-size: 50px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee {
+  display: inline-block;
+  animation: marquee 16s linear infinite;
+}
+
+.marquee-text {
+  font-size: 6rem; /* Adjust the size as needed */
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 120px;
+  padding-right: 300px;
+  margin-top: 60px;
+  color: transparent;
+  -webkit-text-stroke: 2px #0e03ae; /* Outline color and thickness */
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif; /* Customize font-family */
+}
+
+
+.sponzori{
+  background: linear-gradient(to right, #007BFF, #FFFFFF); /* Blue to white gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 50px;
+  padding-top:50px;
+  padding-bottom: 50px;
+  padding-left: 105px;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#myCarousel{
+  margin-top: 100px;
+  height: 200px;
+}
+
+.kontaktet{
+  margin-left: 300px;
+}
+
+/* Responsive Design for mobile */
+
+
+@media screen and (min-width: 200px) and (max-width:767px) {
+
+
+  body{
+    overflow-x: hidden;
+  }
+    
+  .titulli{
+      position: relative;
+      font-size: 50px;
+      left: -90px;
+      top: -90px;
+  }
+  .miresevini{
+    position: relative;
+    left: -90px;
+    top: -70px;
+    font-size: 13px;
+    width: 300px;
+  }
+
+  .button-48{
+    position: relative;
+    top: -70px;
+    left: -30px;
+  }
+
+  .logo{
+    position: relative;
+    left: 70px;
+    width: 40px;
+    left: 200px;
+  }
+
+  .nav{
+    position: relative;
+    font-size: 10px;
+    left: -1010px;
+    bottom: -45px;
+  }
+
+  .nav-item{
+    color: white;
+    margin: -10px;
+    font-size: 10px;
+  }
+
+.tabela{
+    position: relative;
+    left: 500px;
+  }
+
+  .custom-background{
+    position: relative;
+    top: -135px;
+    height: 330px;
+  }
+
+  .lead{
+    display: none;
+  }
+
+  .match-container{
+    position: relative;
+    top: 170px;
+    left: -40px;
+    width: 350px;
+  }
+
+  .match-info{
+    padding: 30px;
+  }
+
+  #radha{
+    font-size: 30px;
+    position: relative;
+    left: -20px;
+  }
+
+  #lajmi{
+    margin-top: -150px;
+  }
+
+  .lajmeth1{
+    position: relative;
+    left: -20px;
+  }
+  
+  .sponzori{
+    position: relative;
+    left: -80px;
+  }
+  .text-muted{
+    position: relative;
+    left: -25px;
+  }
+
+  .eventet{
+    position: relative;
+    left: -20px;
+  }
+
+  .col-md-4{
+    position: relative;
+    left: -20px;
+  }
+
+  .lajm{
+    right: -10px;
+  }
+
+  .kliko{
+    position: relative;
+    left: -18px;
+  }
+
+  .row-cols-lg-3{
+    position: relative;
+    left: -23px;
+  }
+
+  #histo{
+    position: relative;
+    left: -20px;
+  }
+  #klub{
+    position: relative;
+    left: -20px;
+  }
+
+  #imga{
+    margin-right: 50px;
+  }
+
+  #pja{
+    position: relative;
+    left: 0px;
+  }
+
+  #futi{
+    display:none;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  body{
+    overflow-x: hidden;
+  }
+    
+  .tabela{
+    display: none;
+  }
+
+  .logo{
+    position: relative;
+    left: 50px;
+
+  }
+
+  .navi{
+    position: relative;
+    left: -600px;
+  }
+
+  .custom-background{
+    position: relative;
+    top: -90px;
+  }
+
+  .lead{
+    position: relative;
+    left: -20px;
+    width: 400px;
+  }
+}
