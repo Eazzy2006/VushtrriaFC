@@ -4,19 +4,14 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 export default defineConfig({
   plugins: [
-    react(), // Enables React support
-    nodeResolve(), // Resolves external modules
+    react(),
+    nodeResolve(), // Resolve external modules
   ],
   build: {
-    outDir: 'dist', // Output directory for the build
+    outDir: 'dist', // Output directory
     rollupOptions: {
       external: ['react-grid-gallery'], // Externalize if needed
     },
   },
-  base: '/', // Base URL for your app (use '/subdir/' if deploying to a subdirectory)
-  server: {
-    port: 3000, // Port for the development server
-    open: true, // Automatically open the app in the browser
-  },
-  publicDir: 'public', // Directory for static assets
+  base: '/', // Set this to your subdirectory if needed (e.g., '/subdir/')
 });
