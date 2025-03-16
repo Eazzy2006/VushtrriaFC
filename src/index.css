@@ -26,7 +26,7 @@ header {
 .gif-background {
   width: 100%;
   height: 750px;
-  background-image: url('images/video.gif');
+  background-image: url('/images/video.gif');
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid #ccc;

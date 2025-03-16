@@ -1,5 +1,4 @@
 import React from "react"
-import ReactGridGallery from 'react-grid-gallery';
 import { Gallery } from "react-grid-gallery";
 
 
