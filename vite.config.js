@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Output directory
     rollupOptions: {
-      external: ['react-grid-gallery'], // Externalize if needed
+      external: ['react-grid-gallery'], // Externalize this module if needed
     },
   },
-  base: '/', // Set this to your subdirectory if needed (e.g., '/subdir/')
+  base: './', // Use relative base for production deployment
 });
