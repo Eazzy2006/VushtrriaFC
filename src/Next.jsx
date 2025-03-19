@@ -38,7 +38,7 @@ export default function Next() {
 
         {/* Team 2 */}
         <div className="team">
-          <img src="images/FC_Vushtrria.jpg" width="70px" alt="FC Vushtrria" />
+          <img src="../images/FC_Vushtrria.jpg" width="70px" alt="FC Vushtrria" />
           <h5 className="team-name">FC Vushtrria</h5>
         </div>
       </div>

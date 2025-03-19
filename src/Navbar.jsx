@@ -11,7 +11,7 @@ export default function Navbar({ toggleSidebar }) {
           >
             <img
               className="logo"
-              src="images/FC_Vushtrria.jpg"
+              src="../images/FC_Vushtrria.jpg"
               width="50px"
               alt="Logo"
             />
