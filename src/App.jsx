@@ -22,6 +22,10 @@ function App() {
     setIsSidebarOpen(!isSidebarOpen); // Toggle the sidebar open/close
   };
 
+  // Triggering a new build
+console.log("New build trigger");
+
+
   return (
     <Router>
       <div>
