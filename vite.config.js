@@ -13,5 +13,5 @@ export default defineConfig({
       external: ['react-grid-gallery'], // Externalize this module if needed
     },
   },
-  base: './', // Use relative base for production deployment
+  base: '/', // Use relative base for production deployment
 });
