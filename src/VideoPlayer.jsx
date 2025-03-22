@@ -3,7 +3,7 @@ import React from 'react';
 function VideoPlayer() {
   return (
     <div>
-            <div class="gif-background">
+            <div className="gif-background">
             </div>
     </div>
   );

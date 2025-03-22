@@ -11,7 +11,7 @@ export default function Title(){
         Zbuloni historinë e pasur, rezultatet, dhe aktivitetet e fundit të ekipit që përfaqëson me krenari qytetin tonë në futbollin kosovar.  </p>
 
 
-        <button class="button-48" role="button"><span class="text"> Klubi ynë </span></button>
+        <button className="button-48" role="button"><span className="text"> Klubi ynë </span></button>
 
     </div>
     )
