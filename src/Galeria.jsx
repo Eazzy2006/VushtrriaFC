@@ -1,6 +1,5 @@
 import React from 'react';
-// Correct import
-import Gallery from 'react-grid-gallery';
+import { Gallery } from "react-grid-gallery";
 
 export default function Galeria() {
   const images = [
